@@ -308,5 +308,5 @@ end
       end
     end
   end
-  puts player_longest_name
+  player_longest_name
  end
