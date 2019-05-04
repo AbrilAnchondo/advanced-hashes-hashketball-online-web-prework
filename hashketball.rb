@@ -301,7 +301,7 @@ end
     team_data.each do |attribute, data|
       if attribute == :players
         data.each do |name, details|
-          if player_longest_name.chars.count < name.chars.count 
+          if  name.chars.count > player_longest_name.chars.count 
             player_longest_name = name 
           end
         end
