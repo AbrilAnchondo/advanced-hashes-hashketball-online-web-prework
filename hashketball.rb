@@ -292,4 +292,5 @@ def winning_team
   else
     total_points_away
   end
+end
  
